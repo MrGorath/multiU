@@ -1,0 +1,86 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+a {
+	color: rgb(0, 0, 0);
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+ins {
+	background: rgb(210, 224, 182);
+	color: #000;
+	text-decoration: none;
+}
+
+mark {
+	background: rgb(210, 224, 182);
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+small {
+	font-size: 85%;
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+ul, ol {
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+
+dd {
+	margin: 0 0 0 40px;
+}
+
+nav ul, nav ol {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+
