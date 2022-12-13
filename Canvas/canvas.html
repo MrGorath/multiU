@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Canvas</title>
+
+</head>
+
+<body>
+    <svg width="1282" height="4004">
+        <rect x="50" y="50" width="200" height="200" rx="20" ry="10" fill="green" />
+        <circle cx="350" cy="150" r="80" fill="black"/>
+        <ellipse cx="560" cy="150" rx="100" ry="50" fill="black" stroke="yellow" stroke-width="5"/>
+        <line x1="700" y1="50" x2="900" y2="200" style="stroke:rgb(255, 0, 0)"; stroke-width="5"/>
+        <polyline points="450 550, 500 350, 550 550"/>
+        <text x="800" y="50" fill="red" transform="rotate(30)"> Hola mundo!</text>
+        <text x="990" y="60" style="fill: red;"> Mi nombre es:
+            <tspan x="1020" y="95">Pepito Perez</tspan>
+            <tspan x="1020" y="127">Gracias por su atención!.</tspan>
+        </text>
+        <defs>
+            <rect id="rectangulo" width="300" height="200" rx="20" ry="10" stroke="green"/>
+        </defs>
+        <linearGradient id="gradiente1" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="50%" stop-color="yellow"/>
+            <stop offset="100%" stop-color="green"/>
+        </linearGradient>
+        <ellipse cx="200" cy="460" rx="85" ry="55" fill="url(#gradiente1)"/>
+
+    </svg>
+    
+</body>
+
+</html>
